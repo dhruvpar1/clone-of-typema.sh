@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(media/bg.d0c9f600.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(30, 30, 33, var(--tw-bg-opacity));
+    color: white;
+       font-size: 1em;
+    font-weight: 2;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 53px;
+    padding-left: 19px;
+    /* padding-top: 8px; */
+    opacity: 1;
+    /* margin-top: 8px; */
+}
+
+.logo {
+    display: flex;
+    width: 50px;
+    display: flex;
+}
+
+
+/* rgb(41, 41, 43) */
+
+.logo img {
+    position: relative;
+    width: 75px;
+    border-bottom: 13px solid rgb(41, 41, 43);
+    border-top: 16px solid rgb(41, 41, 43);
+    border-left: 10px solid rgb(41, 41, 43);
+    border-right: 10px solid rgb(41, 41, 43);
+}
+
+nav {
+    margin-top: 0px;
+    background-color: rgba(52, 52, 56);
+}
+
+.header-content {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.header-content a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+}
+
+.header-content a::after {
+    /* content: "";
+    width: 0%;
+    transition: width 0.3s ease 0s, left 0.3s ease;
+    position: absolute;
+    left: 0%;
+    top: 208%;
+    border-bottom: 5px solid orangered; */
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    top: 198%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.header-content a:first-child::after {
+    width: 100%;
+    left: 0;
+}
+
+.header-content a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.right-header-content {
+    display: flex;
+    justify-content: space-around;    width: 14em;
+
+    /* align-items: center; */
+}
+
+.right-header-content,
+h3 {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.right-header-content img {
+    height: 24px;
+    width: 24px;
+    border-radius: 9999px;
+}
+
+.main-container {
+    margin: 50px;
+}
+
+.box1 {
+    margin-top: 6px;
+    width: 100%;
+    height: 50PX;
+    background-color: rgb(43, 43, 46);
+    border-radius: 5px;
+    border-left: 2px solid tomato;
+}
+
+.box1 h4 {
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.subbox1 {
+    /* background-color: rgb(32, 32, 32); */
+    display: flex;
+    /* border: 2px solid white; */
+    width: 40%;
+    margin-left: 11px;
+    justify-content: space-around;
+}
+
+.subbox2 {
+    margin-left: 19px;
+    margin-bottom: 5px;
+}
+
+.subbox3 {
+    margin-left: 19px;
+    margin-bottom: 5px;
+}
+
+.subbox4 {
+    margin-left: 19px;
+    margin-bottom: 5px;
+}
+
+.subbox {
+    height: 22px;
+    border: 2px solid rgb(32, 32, 32);
+    background-color: rgb(32, 32, 32);
+}
+
+.secound-content {
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid white; */
+    background-image: url('media/bg_0.4161b3c0.jpg');
+}
+
+.third-content {
+    background-color: rgba(27, 27, 31,7);
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+}
+
+.third-content h1 {
+    padding-top: 76px;
+    padding-left: 31px;
+    display: block;
+}
+.secound{
+    background-image: url('media/bg_0.4161b3c0.jpg');
+    height: 500px;
+}
+.third-content h4 {
+    /* padding-top: 76px; */
+    padding-left: 31px;
+    display: block;
+}
+.main-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:2cm;
+}
+.img1,.img2,.img3{
+    height: 12em;
+    width: 13em;
+    border: 2px solid white;
+    
+}
+.first{
+    height: 12em;
+    width: 25em;   border: 2px solid white;
+
+}
+.secound1{
+    height: 12em;
+    width: 25em;    border: 2px solid white;
+    background-color:rgba(32, 32, 32,0.2);
+}
+.main-content-third{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.recent-highscore{
+    margin: 50px;
+}
+.recent-highscore{
+    height: 39em;
+    /* border: 2px solid rebeccapurple; */
+}
+.score{
+    width: 100%;
+    height:100%;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.row0{
+    height: 3em;
+    border-bottom: 2px solid orange;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.row1{
+    height: 3em;
+    /* border-bottom: 2px solid orange; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;  
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 10em; */
+}
+.row0 .name{
+    background-image: url('media/country_india_transparent.png');
+}
